@@ -1,0 +1,69 @@
+.main__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    justify-content: space-around;
+}
+
+
+.Hamburguer__menu {
+    height: 800px;
+}
+
+.Hamburguer__menu__img img {
+    margin-top: 24px;
+    width: 597px;
+    height: 388px;
+}
+
+.Hamburguer__menu__info {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+
+.Hamburguer__menu__info h3 {
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.Hamburguer__menu__info p {
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    list-style: 24;
+}
+
+.Hamburguer__menu__price {
+    display: flex;
+    justify-content: space-between;
+
+    width: 180px;
+}
+
+
+
+.Nave__menu {
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Nave__menu__add {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Nave__menu__add div {
+    margin-top: 50px;
+}
