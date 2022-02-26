@@ -1,69 +1,213 @@
 .main__content {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 8px;
+    max-width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 15px;
     justify-content: space-around;
 }
 
 
+
+
 .Hamburguer__menu {
-    height: 800px;
+    height: 100vh;
+    width: 50vw;
 }
 
 .Hamburguer__menu__img img {
     margin-top: 24px;
-    width: 597px;
-    height: 388px;
+    max-width: 100%;
+    margin-left: 20px;
+    height: 400px;
 }
 
 .Hamburguer__menu__info {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 400px;
+    font-weight: 400;
+
 }
 
 
 .Hamburguer__menu__info h3 {
     margin-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 28px;
     line-height: 28px;
+
 }
 
 .Hamburguer__menu__info p {
     margin-top: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 20px;
-    list-style: 24;
+    list-style: 24px;
 }
 
 .Hamburguer__menu__price {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-
     width: 180px;
+    font-size: 32px;
+    line-height: 38, 4px;
+    font-weight: 400;
 }
 
-
+.Hamburguer__menu__price p:nth-child(1) {
+    color: #DC6E05;
+}
 
 .Nave__menu {
     border: 1px solid;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.Nave__menu__add {
+    border-radius: 8px;
+    width: 360px;
     height: 600px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
 
 }
 
-.Nave__menu__add div {
-    margin-top: 50px;
+.Nave__menu__addItem {
+    margin-top: 20px;
+    max-width: 375px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.Nave__menu__addItem__info {
+    max-width: 375px;
+    height: 60px;
+    padding: 15px;
+    margin: 10px 10px;
+    background-color: #FDD70E33;
+}
+
+.Nave__menu__addItem p {
+    color: #FDD70E;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.Nave__menu__addItem h4 {
+
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+
+.Nave__menu__addIngredients {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    height: 80px;
+    padding: 8px;
+    border-bottom: 1px solid #FDD70E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #4E4E4E;
+
+}
+
+.Nave__menu__addIngredients p {
+    margin: 10px;
+}
+
+.Nave__menu__addIngredients p:nth-child(2) {
+    color: #FDD70E;
+}
+
+.Nave__meni__ButtonsAddItem {
+    width: 89px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.input__choose__talher {
+    max-width: 375px;
+    height: 60px;
+    padding: 15px;
+    margin: 10px 10px;
+    background-color: #FDD70E33;
+
+}
+
+.input__talher__checkBox {
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input__talher__checkBox__true {
+    max-width: 375px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 8px;
+}
+
+.input__talher__checkBox__false {
+    max-width: 375px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 8px;
+}
+
+.button__addToCart {
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button__addToCart__amount {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #F09035;
+    border-radius: 5px;
+
+}
+
+
+
+
+.button__addToCart__addInCart {
+    width: 205px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F09035;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
 }
