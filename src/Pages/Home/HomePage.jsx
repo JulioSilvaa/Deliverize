@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Main.css";
 
 import { useRequestData } from "../../Hooks/useRequestData";
@@ -10,10 +10,11 @@ import { AdditionalIngredients } from "./../../Components/AdditionalIngredients"
 import { ChooseCutlery } from "../../Components/ChooseCutlery";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import Loader from "../../Components/Loader";
+import Modal from "../../Components/Modal";
 
 export const HomePage = () => {
   const [dataAPI, isLoading] = useRequestData(Base_URL);
-
+  const [isModalVisible, setModalVisible] = useState(false);
 
   const hamburguerinfo = dataAPI.map((info) => {
     return <CardHamburguer info={info} key={info.id} />;
@@ -49,7 +50,10 @@ export const HomePage = () => {
                     <FaPlus color="#D80000" size={"14"} />
                   </span>
                 </div>
-                <button className="button__addToCart__addInCart">
+                <button
+                  onClick={() => setModalVisible(true)}
+                  className="button__addToCart__addInCart"
+                >
                   Adicionar
                 </button>
               </div>
@@ -59,6 +63,11 @@ export const HomePage = () => {
       ) : (
         <Loader />
       )}
+      {isModalVisible ? (
+        <Modal>
+          <h1>Modal do carrinho</h1>
+        </Modal>
+      ) : null}
     </>
   );
 };
