@@ -16,6 +16,15 @@
     width: 50vw;
 }
 
+
+.Hamburguer__menu__img {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 .Hamburguer__menu__img img {
     margin-top: 24px;
     max-width: 100%;
@@ -37,6 +46,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 28px;
+    color: #4E4E4E;
 
 }
 
@@ -45,6 +55,7 @@
     font-weight: 400;
     font-size: 20px;
     list-style: 24px;
+    color: #4E4E4E;
 }
 
 .Hamburguer__menu__price {
@@ -64,11 +75,13 @@
 .Nave__menu {
     border: 1px solid;
     border-radius: 8px;
+    margin-top: 10px;    
     width: 360px;
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 
 
 }
@@ -88,7 +101,7 @@
 
 .Nave__menu__addItem__info {
     max-width: 375px;
-    height: 60px;
+    height: 55px;
     padding: 15px;
     margin: 10px 10px;
     background-color: #FDD70E33;
@@ -96,25 +109,28 @@
 
 .Nave__menu__addItem p {
     color: #FDD70E;
-    margin-left: 20px;
-    font-size: 1em;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .Nave__menu__addItem h4 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #4E4E4E;
 
-    font-size: 1em;
-    margin-left: 20px;
 }
 
 
 .Nave__menu__addIngredients {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin: 10px;
     align-items: center;
     justify-content: space-between;
-    max-width: 300px;
-    height: 80px;
+    max-width: 359px;
+    height: 92px;
     padding: 8px;
     border-bottom: 1px solid #FDD70E;
     font-size: 14px;
@@ -134,26 +150,38 @@
 
 .Nave__meni__ButtonsAddItem {
     width: 89px;
-    height: 32px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    border: 1px solid #DC6E05;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .input__choose__talher {
     max-width: 375px;
-    height: 60px;
+    height: 55px;
     padding: 15px;
     margin: 10px 10px;
     background-color: #FDD70E33;
 
 }
 
+.input__choose__talherContainer {
+    overflow-y: scroll;
+    height: 65px;
+}
+
+.input__choose__talher p {
+    color: #4E4E4E;
+}
+
 .input__talher__checkBox {
     max-width: 375px;
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -165,6 +193,33 @@
     align-items: center;
     padding: 10px;
     margin: 0px 8px;
+}
+
+.input__talher__checkBox__true input[type="radio"] {
+    display: none;
+}
+
+.input__talher__checkBox__true span {
+    height: 14px;
+    width: 14px;
+    margin-top: 2px;
+    border-radius: 50%;
+    border: 2px solid #DC6E05;
+    font-weight: 300;
+    display: block;
+}
+
+.input__talher__checkBox__false input[type="radio"] {
+    display: none;
+}
+
+.input__talher__checkBox__false span {
+    height: 14px;
+    width: 14px;
+    margin-top: 2px;
+    border-radius: 50%;
+    border: 2px solid #DC6E05;
+    font-weight: 300;
 }
 
 .input__talher__checkBox__false {
@@ -181,6 +236,8 @@
     height: 60px;
     padding: 10px;
     display: flex;
+    position: sticky;
+    margin-bottom: 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -209,5 +266,91 @@
     outline: none;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    line-height: 10px;
+    
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .Hamburguer__menu__img img {
+        height: 50%;
+        width: 55%;
+        margin-bottom: 10px;
+
+    }
+
+    .Hamburguer__menu__info h3 {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+        color: #4E4E4E;
+
+    }
+
+    .Hamburguer__menu__info p {
+        margin-top: 25px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4E4E4E;
+    }
+
+    .Hamburguer__menu__price {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 180px;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+    }
+
+    .Hamburguer__menu__info {
+        margin-left: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-weight: 400;
+
+    }
+
+    .Hamburguer__menu {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .input__choose__talher {
+
+        height: 70px;
+    }
+
+    .Nave__menu {
+        margin-top: 40px;
+        height: 800px;
+        max-width: 360px;
+    }
+
+    .Nave__menu {
+        border: none;
+
+    }
+
+
+
+
+    .input__choose__talherContainer {
+        overflow: hidden;
+        height: 130px;
+    }
+
+    .button__addToCart {
+        margin-top: 30px;
+    }
+
+
+
 
 }

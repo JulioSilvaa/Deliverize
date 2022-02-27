@@ -11,9 +11,21 @@
 
 }
 
+.arrow-lef{
+    display: none;
+}
+
+.Inputs__Header__container {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .Header__Logo {
 
-    max-width: 110px;
+    width: 110px;
 
 
 }
@@ -53,18 +65,26 @@
     flex-direction: column;
     background-color: #fff;
     padding: 8px;
+
 }
 
 .Inputs__Header__option label {
     color: #ED3237;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400px;
 }
 
 .Inputs__Header__option select {
+    max-width: 186px;
     margin-top: 4px;
+    height: 15px;
     color: #656363;
     font-weight: 700;
     font-size: 12px;
     line-height: 12px;
+    border: none;
+
 
 }
 
@@ -74,6 +94,7 @@
     border: 1px solid #ED3237;
     outline: none;
     padding: 8px;
+    margin-right: 40px;
 
 }
 
@@ -129,4 +150,24 @@
     font-weight: 400;
     margin-left: 4px;
     color: red;
+}
+
+
+@media screen and (max-width: 480px) {
+    .Inputs__Header__container {
+        display: none;
+
+    }
+
+    .arrow-lef{
+      visibility: visible;
+    }
+
+    .Header__Logo {
+
+        margin: 0 auto;
+
+
+    }
+
 }

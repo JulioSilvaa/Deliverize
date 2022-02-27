@@ -19,7 +19,7 @@ export const AdditionalIngredients = ({ increments }) => {
               <div className="Nave__menu__addIngredients">
                 <div>
                   <p>{item.nm_item}</p>
-                  <p>R$ {item.vl_item.toFixed(2).replace(".", ",")}</p>
+                  <p>+ R$ {item.vl_item.toFixed(2).replace(".", ",")}</p>
                 </div>
                 <div className="Nave__meni__ButtonsAddItem">
                   <span>
