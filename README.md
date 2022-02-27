@@ -5,12 +5,15 @@ O projeto **Deliverize** foi desenvolvido com o intuito de avaliar de forma prá
 <h1 align="center">
 Fotos do projeto
 </h1>
- <img src="https://user-images.githubusercontent.com/69260762/155894342-fc72331d-f508-4746-8522-e3a98e980af9.png"/>
 
-(https://user-images.githubusercontent.com/69260762/155894342-fc72331d-f508-4746-8522-e3a98e980af9.png)
-(https://user-images.githubusercontent.com/69260762/155894384-8ffb10e8-853a-42f7-b1c9-588f4ad8549a.png)
-(https://user-images.githubusercontent.com/69260762/155894372-c1e5446a-de5d-456a-887d-33e468524bad.png)
-(https://user-images.githubusercontent.com/69260762/155894376-cfdf0e23-bb94-456f-b9a8-493abf60756f.png)
+
+ <img src="https://user-images.githubusercontent.com/69260762/155894342-fc72331d-f508-4746-8522-e3a98e980af9.png"/>
+ <img src ="https://user-images.githubusercontent.com/69260762/155894384-8ffb10e8-853a-42f7-b1c9-588f4ad8549a.png" />
+ <img src ="https://user-images.githubusercontent.com/69260762/155894372-c1e5446a-de5d-456a-887d-33e468524bad.png" />
+ <img src ="https://user-images.githubusercontent.com/69260762/155894376-cfdf0e23-bb94-456f-b9a8-493abf60756f.png" />
+
+
+
 
 
 # Índice
