@@ -31,7 +31,7 @@ Fotos do projeto
 
 
 - [Link do Projeto Deploy](https://deliverizejulio.surge.sh/)
-=======
+
 
 
 
