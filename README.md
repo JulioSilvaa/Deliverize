@@ -5,7 +5,7 @@ O projeto **Deliverize** foi desenvolvido com o intuito de avaliar de forma prá
 <h1 align="center">
 Fotos do projeto
 </h1>
-
+ <img src="https://user-images.githubusercontent.com/69260762/155894342-fc72331d-f508-4746-8522-e3a98e980af9.png"/>
 
 (https://user-images.githubusercontent.com/69260762/155894342-fc72331d-f508-4746-8522-e3a98e980af9.png)
 (https://user-images.githubusercontent.com/69260762/155894384-8ffb10e8-853a-42f7-b1c9-588f4ad8549a.png)
