@@ -5,8 +5,12 @@ O projeto **Deliverize** foi desenvolvido com o intuito de avaliar de forma prá
 <h1 align="center">
 Fotos do projeto
 </h1>
-Captura de tela 2022-02-27 135925.png
+
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 135925.png"/>
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140001.png"/>
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140108.png"/>
 <img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140133.png"/>
+
 ---
 
 # Índice
@@ -20,12 +24,11 @@ Captura de tela 2022-02-27 135925.png
 
 ## 🖋 Descrição do projeto
 
-O desafio proposto pelo projeto era desenvolver uma frontpage de uma hamburgueria.
----
+## O desafio proposto pelo projeto era desenvolver uma frontpage de uma hamburgueria.
 
 ## 🌎 Como acessar o projeto
 
-- [Link do Projeto Deploy]()
+- [Link do Projeto Deploy](https://deliverizejulio.surge.sh/)
 
 ## 🚀 Tecnologias utilizadas
 
@@ -44,16 +47,15 @@ o projeto foi desenvolvido usando as seguintes tecnologias:
 ```bash
 # Clonar o repositório
 git clone https://github.com/juliosan-bit/Deliverize
+
 # Entrar no diretório
 cd Deliverize
 
 # Instalar as dependências
-npm install  
+npm install
 
 # Rodar o projeto
 npm run start
 ```
 
 Feito com muito empenho e dedicação por - Julio Silva
-
-
