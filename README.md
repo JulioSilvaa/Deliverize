@@ -6,7 +6,12 @@ O projeto **Deliverize** foi desenvolvido com o intuito de avaliar de forma prá
 Fotos do projeto
 </h1>
 
-
+<img src="![Captura de tela 2022-02-27 145122](https://user-images.githubusercontent.com/69260762/155894543-388c5125-13b5-45fe-bffa-d419a7abbc95.png)
+"/>
+<img src=""/>
+<img src=""/>
+<img src=""/>
+<img src=""/>
 
 
 
