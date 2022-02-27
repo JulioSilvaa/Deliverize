@@ -6,7 +6,10 @@ O projeto **Deliverize** foi desenvolvido com o intuito de avaliar de forma prá
 Fotos do projeto
 </h1>
 
-
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 135925.png"/>
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140001.png"/>
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140108.png"/>
+<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140133.png"/>
 ---
 
 # Índice
