@@ -7,14 +7,10 @@ Fotos do projeto
 </h1>
 
 
-<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 135925.png"/>
-<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140001.png"/>
-<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140108.png"/>
-<img align="center" src="./src/Assets/image/Captura de tela 2022-02-27 140133.png"/>
-
-
-
-
+(https://user-images.githubusercontent.com/69260762/155894342-fc72331d-f508-4746-8522-e3a98e980af9.png)
+(https://user-images.githubusercontent.com/69260762/155894384-8ffb10e8-853a-42f7-b1c9-588f4ad8549a.png)
+(https://user-images.githubusercontent.com/69260762/155894372-c1e5446a-de5d-456a-887d-33e468524bad.png)
+(https://user-images.githubusercontent.com/69260762/155894376-cfdf0e23-bb94-456f-b9a8-493abf60756f.png)
 
 
 # Índice
