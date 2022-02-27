@@ -1,14 +1,15 @@
 import React from "react";
 import "../Pages/Styles/Modal.css";
 
-const Modal = ({children}) => {
+const Modal = ({ children, onClose }) => {
+  setTimeout(onClose, 3000);
   return (
     <div className="modal">
       <div className="modal__Container">
-        <button className="close_modal"></button>
-        <div className="content">
-            {children}
+        <div className="modal_Header">
+          <p>Adicionado com Sucesso</p>
         </div>
+        <div className="modal_content">{children}</div>
       </div>
     </div>
   );

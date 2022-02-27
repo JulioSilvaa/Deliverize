@@ -64,8 +64,15 @@ export const HomePage = () => {
         <Loader />
       )}
       {isModalVisible ? (
-        <Modal>
-          <h1>Modal do carrinho</h1>
+        <Modal onClose={() => setModalVisible(false)}>
+          <h4>Oferta Cheddar Bacon</h4>
+          <p>Ingredientes:</p>
+          <ul>
+            <li> 1 Carne 250gr</li>
+            <li> 2 Queijo Cheddar</li>
+            <li> 1 Bacon</li>
+            <li> Molho Especial</li>
+          </ul>
         </Modal>
       ) : null}
     </>
