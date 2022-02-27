@@ -11,7 +11,7 @@
 
 }
 
-.arrow-lef{
+.arrow-lef {
     display: none;
 }
 
@@ -133,7 +133,7 @@
     line-height: 17px;
     font-weight: 400;
     margin-left: 4px;
-    color: red;
+    color: #ED3237;
 }
 
 .Buttons__Header__cart {
@@ -149,7 +149,48 @@
     line-height: 17px;
     font-weight: 400;
     margin-left: 4px;
-    color: red;
+    color: #ED3237;
+}
+
+@media screen and (max-width: 800px) {
+
+    .Inputs__Header__container {
+        display: none;
+
+    }
+
+    .arrow-lef {
+        visibility: visible;
+    }
+
+    .Header__Logo {
+
+        margin: 0 auto;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .Inputs__Header__container {
+        display: none;
+
+    }
+
+    .arrow-lef {
+        visibility: visible;
+    }
+
+    .Header__Logo {
+
+        margin: 0 auto;
+
+
+    }
+
 }
 
 
@@ -159,8 +200,8 @@
 
     }
 
-    .arrow-lef{
-      visibility: visible;
+    .arrow-lef {
+        visibility: visible;
     }
 
     .Header__Logo {
